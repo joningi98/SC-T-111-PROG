@@ -1,5 +1,4 @@
 import string
-import operator
 
 
 def open_file(filename):
@@ -35,7 +34,7 @@ def count_merged_word(merge_list):
         else:
             my_dict[words_tuple] = 1
     new_list = [(k, v) for k, v in my_dict.items()]
-    print(sorted_x)
+    print(new_list)
 
 
 def main():
