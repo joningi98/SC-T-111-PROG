@@ -1,5 +1,4 @@
 import string
-import operator
 
 
 def open_file(filename):
@@ -34,7 +33,7 @@ def count_merged_word(merge_list):
             my_dict[words_tuple] += 1
         else:
             my_dict[words_tuple] = 1
-    new_list = [(k, v) for k, v in sorted(my_dict.items(), key=lambda kv:[1], reverse=True)]
+    new_list = [(k, v) for k, v in sorted(my_dict.items(), key=lambda kv: kv[1], reverse=True)]
     print(new_list[0:10])
 
 
