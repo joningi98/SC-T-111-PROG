@@ -7,3 +7,4 @@ for num in my_list:
     else:
         pass
 print(lowest_num)
+print(my_list)
