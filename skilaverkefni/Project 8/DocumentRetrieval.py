@@ -3,14 +3,19 @@ import string
 
 def open_file(filename):
     try:
-        word_list = []
+        word_list = [[]]
         with open(filename, 'r') as data_file:
             data_file = data_file.readlines()
+            counter = 0
             for line in data_file:
+                if line == "<NEW DOCUMENT>\n":
+                    word_list.append([])
+                    counter += 1
+                    continue
                 line = line.split()
                 for word in line:
-                    stripped = word.strip(string.punctuation).lower()
-                    word_list.append(stripped)
+                    stripped = word.lower()
+                    word_list[counter].append(stripped)
         return word_list
     except FileNotFoundError:
         print("Documents not found")
@@ -35,30 +40,25 @@ def quit_the_program():
 
 def search_documents(word_list):
     search_word_dict = {}
-    search_word = input("Enter search words: ").lower()  # .join(str(x) for x in L)
-    for char in search_word:
-        if char == ' ':
-            word_1, word_2 = search_word.split()
-        else:
-            continue
-    for x, word in enumerate(word_list, start=1):
-        lower_word = word.lower().strip(string.punctuation)
-        search_word_dict.setdefault(lower_word, []).append(x)
-    if len(search_word_dict) == 0:
+    try:
+        search_word = input("Enter search words: ").lower()  # .join(str(x) for x in L)
+        counter = 0
+        for x, my_list in enumerate(word_list):
+            if not my_list:
+                continue
+            for word in my_list:
+                lower_word = word.lower().strip(string.punctuation)
+                search_word_dict.setdefault(lower_word, []).append(x)
+                counter += 1
+            print("Documents that fit search:", ' '.join(map(str, set(search_word_dict[search_word]))))
+    except KeyError:
         print("No match.")
-    else:
-        print("Documents that fit search:", ' '.join(map(str, search_word_dict[search_word])))
 
 
 def print_documents(word_list):
-    header = "<NEW DOCUMENT>."
-    header_count = 0
-    doc = input("Enter document number: ")
-    for x, word in enumerate(word_list):
-        if x + 1 == word_list:
-            break
-        elif word_list[x] and word_list[x + 1] == header:
-            header_count += 1
+    doc = int(input("Enter document number: "))
+    print("Document #{}".format(doc))
+    print(word_list[doc + 1], end=' ')
 
 
 def main():
