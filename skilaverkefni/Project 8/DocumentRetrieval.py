@@ -35,10 +35,10 @@ def quit_the_program():
 
 def search_documents(word_list):
     search_word_dict = {}
-    search_word = input("Enter search words: ").lower()
+    search_word = input("Enter search words: ").lower()  # .join(str(x) for x in L)
     for char in search_word:
         if char == ' ':
-            search_word = search_word.split()
+            word_1, word_2 = search_word.split()
         else:
             continue
     for x, word in enumerate(word_list, start=1):
