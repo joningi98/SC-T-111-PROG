@@ -24,7 +24,8 @@ def file_options(doc_list):
     print("What would you like to do?\n1. Search Documents\n2. Print Document\n3. Quit Program")
     choice = int(input(""))
     if choice == 1:
-        search_documents(doc_list, get_search_word())
+        search_words = search_documents(doc_list, get_search_word())
+        print_search_word(search_words)
     if choice == 2:
         print_documents(doc_list)
     if choice == 3:
@@ -48,27 +49,32 @@ def get_search_word():
 
 def search_documents(doc_list, search_key):
     search_word_dict = {}
-    value_set = set([])
-    try:
-        for x, my_list in enumerate(doc_list, start=-1):
-            if not my_list:
-                continue
-            for line in my_list:
-                line = line.split()
-                for word in line:
-                    lower_word = word.lower().strip(string.punctuation)
+    for x, my_list in enumerate(doc_list, start=-1):
+        if not my_list:
+            continue
+        for line in my_list:
+            line = line.split()
+            for word in line:
+                lower_word = word.lower().strip(string.punctuation)
+                if len(search_key) == 2:
                     if lower_word in search_key:
                         search_word_dict.setdefault(lower_word, []).append(x)
-        for values in search_word_dict.values():
-            value_set.update(values)
+                else:
+                    if lower_word == search_key:
+                        search_word_dict.setdefault(lower_word, []).append(x)
+    return search_word_dict
+
+
+def print_search_word(search_word_dict):
+    value_set = set([])
+    for values in search_word_dict.values():
+        value_set.update(values)
         print(search_word_dict)
-        if len(value_set) == 0:
-            print("No match.")
-        else:
-            print("Documents that fit search:", *value_set)
-            print('')
-    except KeyError:
+    if len(value_set) == 0:
         print("No match.")
+    else:
+        print("Documents that fit search:", *value_set.union())
+        print('')
 
 
 def print_documents(doc_list):
