@@ -3,31 +3,30 @@ import string
 
 def open_file(filename):
     try:
-        word_list = [[]]
+        doc_list = [[]]
         with open(filename, 'r') as data_file:
             data_file = data_file.readlines()
             counter = 0
             for line in data_file:
                 if line == "<NEW DOCUMENT>\n":
-                    word_list.append([])
+                    doc_list.append([])
                     counter += 1
                     continue
-                line = line.split()
-                for word in line:
-                    word_list[counter].append(word)
-        return word_list
+                line.strip()
+                doc_list[counter].append(line)
+        return doc_list
     except FileNotFoundError:
         print("Documents not found")
         exit()
 
 
-def file_options(word_list):
-    print("1. Search Documents\n2. Print Document\n3. Quit Program")
+def file_options(doc_list):
+    print("What would you like to do?\n1. Search Documents\n2. Print Document\n3. Quit Program")
     choice = int(input(""))
     if choice == 1:
-        search_documents(word_list)
+        search_documents(doc_list)
     if choice == 2:
-        print_documents(word_list)
+        print_documents(doc_list)
     if choice == 3:
         quit_the_program()
 
@@ -37,38 +36,49 @@ def quit_the_program():
     quit()
 
 
-def search_documents(word_list):
+def search_documents(doc_list):
     search_word_dict = {}
     value_set = set([])
     try:
-        search_word = input("Enter search words: ").lower()  # .join(str(x) for x in L)
+        search_word = input("Enter search words: ").lower()
         if ' ' in search_word:
             target1, target2 = search_word.split()
             search_key = target1, target2
         else:
             search_key = search_word
-        for x, my_list in enumerate(word_list, start=-1):
+        for x, my_list in enumerate(doc_list, start=-1):
             if not my_list:
                 continue
-            for word in my_list:
-                lower_word = word.lower().strip(string.punctuation)
-                if word in search_key:
-                    search_word_dict.setdefault(lower_word, []).append(x)
+            for line in my_list:
+                line = line.split()
+                for word in line:
+                    lower_word = word.lower().strip(string.punctuation)
+                    if lower_word in search_key:
+                        search_word_dict.setdefault(lower_word, []).append(x)
         for values in search_word_dict.values():
             value_set.update(values)
         if len(value_set) == 0:
             print("No match.")
         else:
             print("Documents that fit search:", *value_set)
+            print('')
     except KeyError:
         print("No match.")
 
 
-def print_documents(word_list):
+def print_documents(doc_list):
     try:
         doc = int(input("Enter document number: "))
         print("Document #{}".format(doc))
-        print(*word_list[doc + 1], end=' ')
+        for line in doc_list[doc + 1]:
+            line.strip('\n')
+            if line == ' ':
+                continue
+            elif line[0] == ' ':
+                line.strip()
+                print(line)
+            else:
+                print(line)
     except IndexError:
         print("No such document")
         quit()
