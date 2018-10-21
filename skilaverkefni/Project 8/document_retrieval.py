@@ -16,7 +16,7 @@ def open_file(filename):
                 doc_list[counter].append(line)
         return doc_list
     except FileNotFoundError:
-        print("Documents not found")
+        print("Documents not found.")
         exit()
 
 
@@ -24,7 +24,7 @@ def file_options(doc_list):
     print("What would you like to do?\n1. Search Documents\n2. Print Document\n3. Quit Program")
     choice = int(input(""))
     if choice == 1:
-        search_documents(doc_list)
+        search_documents(doc_list, get_search_word())
     if choice == 2:
         print_documents(doc_list)
     if choice == 3:
@@ -36,16 +36,20 @@ def quit_the_program():
     quit()
 
 
-def search_documents(doc_list):
+def get_search_word():
+    search_word = input("Enter search words: ").lower()
+    if ' ' in search_word:
+        target1, target2 = search_word.split()
+        search_key = target1, target2
+    else:
+        search_key = search_word
+    return search_key
+
+
+def search_documents(doc_list, search_key):
     search_word_dict = {}
     value_set = set([])
     try:
-        search_word = input("Enter search words: ").lower()
-        if ' ' in search_word:
-            target1, target2 = search_word.split()
-            search_key = target1, target2
-        else:
-            search_key = search_word
         for x, my_list in enumerate(doc_list, start=-1):
             if not my_list:
                 continue
@@ -57,6 +61,7 @@ def search_documents(doc_list):
                         search_word_dict.setdefault(lower_word, []).append(x)
         for values in search_word_dict.values():
             value_set.update(values)
+        print(search_word_dict)
         if len(value_set) == 0:
             print("No match.")
         else:
@@ -71,14 +76,9 @@ def print_documents(doc_list):
         doc = int(input("Enter document number: "))
         print("Document #{}".format(doc))
         for line in doc_list[doc + 1]:
-            line.strip('\n')
-            if line == ' ':
-                continue
-            elif line[0] == ' ':
-                line.strip()
-                print(line)
-            else:
-                print(line)
+            stripped = line.rstrip()
+            print(stripped)
+        print('')
     except IndexError:
         print("No such document")
         quit()
