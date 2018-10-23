@@ -9,6 +9,3 @@ class RockGuitars(object):
 
     def __str__(self):
         return '{:<20s} {:<20s}'.format(self.guitarist, self.guitar)
-
-
-RockGuitars("Jimmy Page", "Gibson Les Paul Standard")
