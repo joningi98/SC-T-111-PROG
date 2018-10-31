@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1540938220295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$document_retrieval.coverage" NAME="document_retrieval Coverage Results" MODIFIED="1540599073097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 8" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$circle.coverage" NAME="circle Coverage Results" MODIFIED="1540895310697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
-    <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024133254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024405556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$sales.coverage" NAME="sales Coverage Results" MODIFIED="1540895538132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$44.coverage" NAME="44 Coverage Results" MODIFIED="1540889040072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/tima_verkefni" />
   </component>
@@ -98,13 +98,13 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4645" />
+          <entry key="py" value="4767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4645" />
+          <entry key="Python" value="4767" />
         </counts>
       </usages-collector>
     </session>
@@ -117,15 +117,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/Vehicles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+            <state relative-caret-position="-601">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <marker date="1541023489246" expanded="true" signature="22:23" ph="..." />
-                <marker date="1541023489246" expanded="true" signature="192:193" ph="..." />
-                <marker date="1541023489246" expanded="true" signature="474:542" ph="..." />
-                <marker date="1541023489246" expanded="true" signature="789:822" ph="..." />
-                <marker date="1541023489246" expanded="true" signature="1434:1464" ph="..." />
-                <marker date="1541023489246" expanded="true" signature="1967:1973" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="22:23" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="172:173" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="397:465" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="739:745" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="1325:1331" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="1633:1698" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="1719:1728" ph="..." />
+                <marker date="1541024468580" expanded="true" signature="1937:1943" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,7 +372,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.19798657" />
@@ -393,7 +395,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.34362417" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.21543624" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,15 +506,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/Vehicles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+        <state relative-caret-position="-601">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1541023489246" expanded="true" signature="22:23" ph="..." />
-            <marker date="1541023489246" expanded="true" signature="192:193" ph="..." />
-            <marker date="1541023489246" expanded="true" signature="474:542" ph="..." />
-            <marker date="1541023489246" expanded="true" signature="789:822" ph="..." />
-            <marker date="1541023489246" expanded="true" signature="1434:1464" ph="..." />
-            <marker date="1541023489246" expanded="true" signature="1967:1973" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="22:23" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="172:173" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="397:465" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="739:745" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="1325:1331" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="1633:1698" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="1719:1728" ph="..." />
+            <marker date="1541024468580" expanded="true" signature="1937:1943" ph="..." />
           </folding>
         </state>
       </provider>

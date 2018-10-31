@@ -6,8 +6,7 @@ class Vehicle(object):
         self.fee = 0.00
 
     def __str__(self):
-        return "Vehicle: {} {} Weight={} Fee=${}".format(self.license, self.year, ("%.2f" % self.weight),
-                                                         ("%.2f" % self.fee))
+        return "Vehicle: {} {} Weight={} Fee=${}".format(self.license, self.year, ("%.2f" % self.weight), ("%.2f" % self.fee))
 
 
 class Car(Vehicle):
@@ -28,8 +27,7 @@ class Car(Vehicle):
         return self.weight
 
     def __str__(self):
-        return "Car: {} {} {} Weight={} Fee=${}".format(self.license, self.year, self.style, ("%.2f" % self.weight),
-                                                        ("%.2f" % self.fee))
+        return "Car: {} {} {} Weight={} Fee=${}".format(self.license, self.year, self.style, ("%.2f" % self.weight), ("%.2f" % self.fee))
 
 
 class Truck(Vehicle):
