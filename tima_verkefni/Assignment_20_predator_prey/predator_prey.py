@@ -33,8 +33,8 @@ class Island(object):
     def populate_island(self, number_of_predators, number_of_preys):
         counter = 0
         while counter < number_of_predators:
-            x = random.randint(0, self.grid_size-1)
-            y = random.randint(0, self.grid_size-1)
+            x = random.randint(0, self.grid_size - 1)
+            y = random.randint(0, self.grid_size - 1)
 
             if self.empty_cell(x, y):
                 new_predator = Predator(self, x, y)
@@ -43,13 +43,24 @@ class Island(object):
 
         counter = 0
         while counter < number_of_preys:
-            x = random.randint(0, self.grid_size-1)
-            y = random.randint(0, self.grid_size-1)
+            x = random.randint(0, self.grid_size - 1)
+            y = random.randint(0, self.grid_size - 1)
 
             if self.empty_cell(x, y):
                 new_prey = Prey(self, x, y)
                 self.set_animal_on_island(new_prey)
                 counter += 1
+
+    def remove(self, animal):
+        self.grid[animal.x][animal.y] = 0
+
+    def refresh(self):
+        for row in self.grid:
+            for value in row:
+                if isinstance(value, Animal):
+                    value.has_moved = False
+
+
 ###############################################################
 ###############################################################
 
@@ -61,21 +72,45 @@ class Animal(object):
         self.x = x
         self.y = y
         self.name = name
+        self.has_moved = False
 
     def __str__(self):
         return self.name
 
+    def coord_within_island(self, x, y):
+        return 0 <= x < self.island.grid_size and 0 <= y < self.island.grid_size
 
-###############################################################
-###############################################################
+    def get_new_position(self, target=int):
+        offset_list = [(-1, 1), (0, 1), (1, 1), (-1, 0), (1, 0), (-1, -1), (0, -1), (1, -1)]
+        for coord in offset_list:
+            x = self.x + coord[0]
+            y = self.y + coord[1]
+            if self.coord_within_island(x, y) and isinstance(self.island.grid[x][y], target):
+                return (x, y)
+        return None
+
+    def move(self):
+        if not self.has_moved:
+            new_position = self.get_new_position()
+            if new_position is not None:
+                self.island.remove(self)
+                self.x, self.y = new_position
+                self.island.set_animal_on_island(self)
+
 
 class Predator(Animal):
     def __init__(self, island, x=0, y=0, name="P"):
         Animal.__init__(self, island, x, y, name)
 
+    def eat(self):
+        if not self.has_moved:
+            new_position = self.get_new_position(Prey)
+            if new_position is not None:
+                self.island.remove(self)
+                self.x, self.y = new_position
+                self.island.set_animal_on_island(self)
+                self.has_moved = True
 
-###############################################################
-###############################################################
 
 class Prey(Animal):
     def __init__(self, island, x=0, y=0, name="B"):
@@ -83,16 +118,31 @@ class Prey(Animal):
 
 
 def main():
-    tenerife = Island(5, 3, 4)
-    print(tenerife)
+    tenerife = Island(5, 4, 5)
 
-    man = Animal(tenerife, 2, 1)
-    tenerife.set_animal_on_island(man)
+    number_of_runs = 3
 
-    bengal_tiger = Predator(tenerife, 3, 1)
-    tenerife.set_animal_on_island(bengal_tiger)
+    while number_of_runs > 0:
+        for x in range(tenerife.grid_size):
+            print(tenerife)
+            for y in range(tenerife.grid_size):
+                if isinstance(tenerife.grid[x][y], Animal):
+                    animal = tenerife.grid[x][y]
+                    if isinstance(animal, Predator):
+                        animal.eat()
+                    animal.move()
+                    animal.has_moved = True
+            tenerife.refresh()
+            number_of_runs -= 1
+    # man = Prey(tenerife, 0, 0)
+    # bengal_tiger = Predator(tenerife, 0, 3)
 
-    print(tenerife)
+    # tenerife.set_animal_on_island(man)
+    # tenerife.set_animal_on_island(bengal_tiger)
+    # print(tenerife)
+    # bengal_tiger.eat()
+
+    # print(tenerife)
 
 
 main()

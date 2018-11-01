@@ -5,7 +5,17 @@ class Vehicle(object):
         self.weight = 0.00
         self.fee = 0.00
 
-    def get
+    def get_license(self):
+        return self.license
+
+    def get_year(self):
+        return self.year
+
+    def get_fee(self):
+        return self.fee
+
+    def get_weight(self):
+        return self.weight
 
     def __str__(self):
         return "Vehicle: {} {} Weight={} Fee=${}".format(self.license, self.year, ("%.2f" % self.weight), ("%.2f" % self.fee))
