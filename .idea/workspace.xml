@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120e843-18b5-4c7e-b60e-056d57b5ffc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skilaverkefni/Project 10/Vehicles.py" beforeDir="false" afterPath="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" beforeDir="false" afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$deck.coverage" NAME="deck Coverage Results" MODIFIED="1540646035176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 9" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$student.coverage" NAME="student Coverage Results" MODIFIED="1540896390289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1540938220295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
-    <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1541064409037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1541066580271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$document_retrieval.coverage" NAME="document_retrieval Coverage Results" MODIFIED="1540599073097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 8" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$circle.coverage" NAME="circle Coverage Results" MODIFIED="1540895310697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024405556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
@@ -103,14 +101,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="5404" />
+          <entry key="py" value="6152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5404" />
+          <entry key="Python" value="6152" />
         </counts>
       </usages-collector>
     </session>
@@ -123,11 +121,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="334">
+              <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding>
-                <marker date="1541064428201" expanded="true" signature="649:654" ph="..." />
-                <marker date="1541064428201" expanded="true" signature="856:861" ph="..." />
+                <marker date="1541066566913" expanded="true" signature="799:841" ph="..." />
+                <marker date="1541066566913" expanded="true" signature="1733:1738" ph="..." />
+                <marker date="1541066566913" expanded="true" signature="2081:2439" ph="..." />
+                <marker date="1541066566913" expanded="true" signature="2450:2455" ph="..." />
               </folding>
             </state>
           </provider>
@@ -373,7 +373,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.19798657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.19798657" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,7 +393,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.31879196" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.35369128" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,11 +528,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="334">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding>
-            <marker date="1541064428201" expanded="true" signature="649:654" ph="..." />
-            <marker date="1541064428201" expanded="true" signature="856:861" ph="..." />
+            <marker date="1541066566913" expanded="true" signature="799:841" ph="..." />
+            <marker date="1541066566913" expanded="true" signature="1733:1738" ph="..." />
+            <marker date="1541066566913" expanded="true" signature="2081:2439" ph="..." />
+            <marker date="1541066566913" expanded="true" signature="2450:2455" ph="..." />
           </folding>
         </state>
       </provider>
