@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120e843-18b5-4c7e-b60e-056d57b5ffc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" beforeDir="false" afterPath="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" beforeDir="false" afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +17,11 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1540938220295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1541071198122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$document_retrieval.coverage" NAME="document_retrieval Coverage Results" MODIFIED="1540599073097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 8" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$daematimaverkefni_7.coverage" NAME="daematimaverkefni_7 Coverage Results" MODIFIED="1541351472323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/skila_verkefni" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$circle.coverage" NAME="circle Coverage Results" MODIFIED="1540895310697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024405556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$sales.coverage" NAME="sales Coverage Results" MODIFIED="1540895538132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$vehicles.coverage" NAME="vehicles Coverage Results" MODIFIED="1541350165946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$44.coverage" NAME="44 Coverage Results" MODIFIED="1540889040072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/tima_verkefni" />
   </component>
   <component name="DatabaseView">
@@ -72,9 +74,10 @@
     <session id="1768651762">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -83,33 +86,33 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="25" />
+          <entry key="py" value="28" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="7474" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="8749" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="7474" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="8749" />
         </counts>
       </usages-collector>
     </session>
@@ -122,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="1034">
+              <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
               <folding>
                 <marker date="1541067246919" expanded="true" signature="22:23" ph="..." />
                 <marker date="1541067246919" expanded="true" signature="352:385" ph="..." />
@@ -140,16 +143,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py">
+        <entry file="file://$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="544">
+              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
               <folding>
-                <marker date="1541071178543" expanded="true" signature="799:841" ph="..." />
-                <marker date="1541071178543" expanded="true" signature="1990:1995" ph="..." />
-                <marker date="1541071178543" expanded="true" signature="2337:2343" ph="..." />
-                <marker date="1541071178543" expanded="true" signature="3033:3589" ph="..." />
-                <marker date="1541071178543" expanded="true" signature="3600:3605" ph="..." />
+                <marker date="1541351319949" expanded="true" signature="21:26" ph="..." />
+                <marker date="1541351319949" expanded="true" signature="180:211" ph="..." />
+                <marker date="1541351319949" expanded="true" signature="338:343" ph="..." />
+                <marker date="1541351319949" expanded="true" signature="530:535" ph="..." />
+                <marker date="1541351319949" expanded="true" signature="721:940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,6 +185,8 @@
         <option value="$PROJECT_DIR$/skilaverkefni/Project 10/Vehicles.py" />
         <option value="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" />
         <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" />
+        <option value="$PROJECT_DIR$/ehv/skila_verkefni/.pydaematimaverkefni_.py" />
+        <option value="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" />
       </list>
     </option>
   </component>
@@ -192,9 +197,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="-8" />
     <option name="width" value="975" />
-    <option name="height" value="1050" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.predator_prey">
+  <component name="RunManager" selected="Python.daematimaverkefni_7">
     <configuration name="Vehicles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +297,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="daematimaverkefni_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-111-PROG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ehv/skila_verkefni" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="predator_prey" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,7 +341,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sales" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vehicles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,34 +349,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/skilaverkefni/Project 10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes/sales.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-111-PROG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes/student.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +364,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sales" />
-      <item itemvalue="Python.student" />
       <item itemvalue="Python.accounts" />
       <item itemvalue="Python.Vehicles" />
       <item itemvalue="Python.predator_prey" />
+      <item itemvalue="Python.vehicles" />
+      <item itemvalue="Python.daematimaverkefni_7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.daematimaverkefni_7" />
+        <item itemvalue="Python.vehicles" />
         <item itemvalue="Python.predator_prey" />
         <item itemvalue="Python.Vehicles" />
         <item itemvalue="Python.accounts" />
-        <item itemvalue="Python.student" />
-        <item itemvalue="Python.sales" />
       </list>
     </recent_temporary>
   </component>
@@ -401,12 +406,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.19798657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.4080537" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39885223" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32907802" />
@@ -421,7 +426,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.35369128" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.3852349" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,10 +542,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="119" column="11" lean-forward="true" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+          <folding>
+            <marker date="1541071178543" expanded="true" signature="799:841" ph="..." />
+            <marker date="1541071178543" expanded="true" signature="1990:1995" ph="..." />
+            <marker date="1541071178543" expanded="true" signature="2337:2343" ph="..." />
+            <marker date="1541071178543" expanded="true" signature="3033:3589" ph="..." />
+            <marker date="1541071178543" expanded="true" signature="3600:3605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="1034">
+          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
           <folding>
             <marker date="1541067246919" expanded="true" signature="22:23" ph="..." />
             <marker date="1541067246919" expanded="true" signature="352:385" ph="..." />
@@ -555,16 +574,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py">
+    <entry file="file://$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="544">
+          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
-            <marker date="1541071178543" expanded="true" signature="799:841" ph="..." />
-            <marker date="1541071178543" expanded="true" signature="1990:1995" ph="..." />
-            <marker date="1541071178543" expanded="true" signature="2337:2343" ph="..." />
-            <marker date="1541071178543" expanded="true" signature="3033:3589" ph="..." />
-            <marker date="1541071178543" expanded="true" signature="3600:3605" ph="..." />
+            <marker date="1541351319949" expanded="true" signature="21:26" ph="..." />
+            <marker date="1541351319949" expanded="true" signature="180:211" ph="..." />
+            <marker date="1541351319949" expanded="true" signature="338:343" ph="..." />
+            <marker date="1541351319949" expanded="true" signature="530:535" ph="..." />
+            <marker date="1541351319949" expanded="true" signature="721:940" ph="..." />
           </folding>
         </state>
       </provider>
