@@ -1,21 +1,21 @@
 class Person(object):
-    def __init__(self, name='', username='', ssn=0):
+    def __init__(self, name="", username="", ssn=0):
         self.name = name
-        self.User_name = username
-        self.SSN = ssn
+        self.username = username
+        self.ssn = ssn
 
     def get_name(self):
         return self.name
 
     def get_user_name(self):
-        return self.User_name
+        return self.username
 
-    def get_SSN(self):
-        return self.SSN
+    def get_ssn(self):
+        return self.ssn
 
 
 class Student(Person):
-    def __init__(self, name='', username='', ssn=0, department=''):
+    def __init__(self, name="", username="", ssn=0, department=""):
         super().__init__(name, username, ssn)
         self.department = department
 
@@ -24,7 +24,7 @@ class Student(Person):
 
 
 class Professor(Person):
-    def __init__(self, name='', username='', ssn=0, position=''):
+    def __init__(self, name="", username="", ssn=0, position=""):
         super().__init__(name, username, ssn)
         self.position = position
 
@@ -32,24 +32,20 @@ class Professor(Person):
         return self.position
 
 
-class Course(Professor, Student):
-    def __init__(self, name='', students=[], professor=Professor):
-        super().__init__()
-        self.course_name = name
+class Course(Student, Professor):
+    def __init__(self, name="", students=[], professor=Professor):
+        super().__init__(name)
         self.students = students
-        self.Professor = professor
-
-    def get_name(self):
-        return self.course_name
+        self.professor = professor
 
     def get_students(self):
         name_of_students = []
-        for student in self.students:
-            name_of_students.append(student.name)
+        for Student in self.students:
+            name_of_students.append(Student.name)
         return name_of_students
 
     def get_professor(self):
-        return self.Professor.name
+        return self.professor.name
 
 
 s1 = Student("Jón Jónsson", "jonj", 1, "IT")
