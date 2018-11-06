@@ -4,10 +4,6 @@ class ChessPlayers(object):
         self.birth_year = birth
         self.chess_rating = chess_rating
 
-    def __str__(self):
-        return "Name: {}\nYear: {}\n Rating: {}".format(self.name, self.birth_year, self.chess_rating)
-
-
 def get_highest_rated_player(players):
     highest_num = 0
     highest_player = ''
