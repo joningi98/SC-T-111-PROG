@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120e843-18b5-4c7e-b60e-056d57b5ffc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ehv/ehv_skoladaemi/binary_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/123156.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/123156.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/bin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/bin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/contents.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/contents.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/is_float.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/is_float.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/longest_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/longest_word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/pigLatin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/pigLatin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/safe_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/safe_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/sentences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/sentences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ehv/write.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/write.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +17,11 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$deck.coverage" NAME="deck Coverage Results" MODIFIED="1540646035176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 9" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$student.coverage" NAME="student Coverage Results" MODIFIED="1540896390289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1540938220295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$vending_machine.coverage" NAME="vending_machine Coverage Results" MODIFIED="1541500263628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024405556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$vehicles.coverage" NAME="vehicles Coverage Results" MODIFIED="1541350165946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$44.coverage" NAME="44 Coverage Results" MODIFIED="1540889040072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/tima_verkefni" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$bricks.coverage" NAME="bricks Coverage Results" MODIFIED="1541504231871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1541496178002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python book/Chapter 9" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1541071198122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$document_retrieval.coverage" NAME="document_retrieval Coverage Results" MODIFIED="1540599073097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 8" />
@@ -40,6 +29,7 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$circle.coverage" NAME="circle Coverage Results" MODIFIED="1540895310697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$sales.coverage" NAME="sales Coverage Results" MODIFIED="1540895538132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$binary_.coverage" NAME="binary_ Coverage Results" MODIFIED="1541356883132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/ehv_skoladaemi" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$more_chess_players.coverage" NAME="more_chess_players Coverage Results" MODIFIED="1541503629946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -110,14 +100,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="36" />
+          <entry key="py" value="41" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -125,14 +115,14 @@
         <counts>
           <entry key="Python Console" value="44" />
           <entry key="dummy" value="2" />
-          <entry key="py" value="9526" />
+          <entry key="py" value="12058" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="9570" />
+          <entry key="Python" value="12102" />
         </counts>
       </usages-collector>
     </session>
@@ -142,11 +132,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="23" column="88" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="88" />
+              <folding>
+                <marker date="1541500263548" expanded="true" signature="29:34" ph="..." />
+                <marker date="1541500263548" expanded="true" signature="396:623" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <marker date="1541503783576" expanded="true" signature="351:684" ph="..." />
+                <marker date="1541503783576" expanded="true" signature="716:885" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="64" lean-forward="true" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+              <folding>
+                <marker date="1541504845059" expanded="true" signature="37:38" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +200,10 @@
         <option value="$PROJECT_DIR$/ehv/skila_verkefni/.pydaematimaverkefni_.py" />
         <option value="$PROJECT_DIR$/ehv/ehv_skoladaemi/binary_.py" />
         <option value="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" />
+        <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py" />
         <option value="$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py" />
+        <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" />
+        <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py" />
       </list>
     </option>
   </component>
@@ -214,13 +236,13 @@
             <path>
               <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="Python book" type="462c0819:PsiDirectoryNode" />
+              <item name="tima_verkefni" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="Python book" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 9" type="462c0819:PsiDirectoryNode" />
+              <item name="tima_verkefni" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_20_Revision" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,8 +274,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dictionaries">
-    <configuration name="binary_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bricks">
+    <configuration name="bricks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,12 +283,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ehv/ehv_skoladaemi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ehv/ehv_skoladaemi/binary_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +341,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predator_prey" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="more_chess_players" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,12 +349,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey/predator_prey.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +363,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vehicles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vending_machine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +371,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/skilaverkefni/Project 10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +386,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.predator_prey" />
-      <item itemvalue="Python.vehicles" />
       <item itemvalue="Python.daematimaverkefni_7" />
-      <item itemvalue="Python.binary_" />
       <item itemvalue="Python.dictionaries" />
+      <item itemvalue="Python.vending_machine" />
+      <item itemvalue="Python.more_chess_players" />
+      <item itemvalue="Python.bricks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bricks" />
+        <item itemvalue="Python.more_chess_players" />
+        <item itemvalue="Python.vending_machine" />
         <item itemvalue="Python.dictionaries" />
         <item itemvalue="Python.daematimaverkefni_7" />
-        <item itemvalue="Python.binary_" />
-        <item itemvalue="Python.vehicles" />
-        <item itemvalue="Python.predator_prey" />
       </list>
     </recent_temporary>
   </component>
@@ -404,9 +426,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1590604" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +447,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.31208053" />
+      <window_info anchor="right" id="Run" order="5" weight="0.39395973" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.4080537" />
@@ -572,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -616,10 +630,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="84" column="99" lean-forward="true" selection-start-line="84" selection-start-column="90" selection-end-line="84" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="88" />
+          <folding>
+            <marker date="1541500263548" expanded="true" signature="29:34" ph="..." />
+            <marker date="1541500263548" expanded="true" signature="396:623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <marker date="1541503783576" expanded="true" signature="351:684" ph="..." />
+            <marker date="1541503783576" expanded="true" signature="716:885" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" lean-forward="true" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+          <folding>
+            <marker date="1541504845059" expanded="true" signature="37:38" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
