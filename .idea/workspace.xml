@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120e843-18b5-4c7e-b60e-056d57b5ffc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" beforeDir="false" afterPath="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/multiplacation_tablet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/sum_of_even.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/analyze_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/longest_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/sublists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Projects/deck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ehv/ehv/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/123.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +23,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$multiplacation_tablet.coverage" NAME="multiplacation_tablet Coverage Results" MODIFIED="1542125295815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$students.coverage" NAME="students Coverage Results" MODIFIED="1542118961022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$deck.coverage" NAME="deck Coverage Results" MODIFIED="1540646035176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 9" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$student.coverage" NAME="student Coverage Results" MODIFIED="1540896390289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1540938220295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$sublists.coverage" NAME="sublists Coverage Results" MODIFIED="1542062672280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Midterm_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$vending_machine.coverage" NAME="vending_machine Coverage Results" MODIFIED="1541500263628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$Vehicles.coverage" NAME="Vehicles Coverage Results" MODIFIED="1541024405556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$vehicles.coverage" NAME="vehicles Coverage Results" MODIFIED="1541350165946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 10" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$44.coverage" NAME="44 Coverage Results" MODIFIED="1540889040072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/tima_verkefni" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$bricks.coverage" NAME="bricks Coverage Results" MODIFIED="1541504231871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$analyze_list.coverage" NAME="analyze_list Coverage Results" MODIFIED="1542059378868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Midterm_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1541496178002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python book/Chapter 9" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$riskFactors.coverage" NAME="riskFactors Coverage Results" MODIFIED="1542114589145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Projects" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1541071198122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$sum_of_even.coverage" NAME="sum_of_even Coverage Results" MODIFIED="1542116878106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$document_retrieval.coverage" NAME="document_retrieval Coverage Results" MODIFIED="1540599073097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skilaverkefni/Project 8" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$daematimaverkefni_7.coverage" NAME="daematimaverkefni_7 Coverage Results" MODIFIED="1541357207562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/skila_verkefni" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$circle.coverage" NAME="circle Coverage Results" MODIFIED="1540895310697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$sales.coverage" NAME="sales Coverage Results" MODIFIED="1540895538132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$binary_.coverage" NAME="binary_ Coverage Results" MODIFIED="1541356883132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/ehv_skoladaemi" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$sublist.coverage" NAME="sublist Coverage Results" MODIFIED="1542062471306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Midterm 2" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$longest_word.coverage" NAME="longest_word Coverage Results" MODIFIED="1542121673691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Midterm_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$more_chess_players.coverage" NAME="more_chess_players Coverage Results" MODIFIED="1541504919827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
   </component>
   <component name="DatabaseView">
@@ -78,33 +98,37 @@
     <session id="1768651762">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="41" />
-          <entry key="txt" value="2" />
+          <entry key="csv" value="1" />
+          <entry key="py" value="71" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="41" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -112,14 +136,14 @@
         <counts>
           <entry key="Python Console" value="44" />
           <entry key="dummy" value="2" />
-          <entry key="py" value="12071" />
+          <entry key="py" value="17696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12115" />
+          <entry key="Python" value="17740" />
         </counts>
       </usages-collector>
     </session>
@@ -130,38 +154,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py">
+        <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/sum_of_even.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="88" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="88" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <marker date="1541500263548" expanded="true" signature="29:34" ph="..." />
-                <marker date="1541500263548" expanded="true" signature="396:623" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <marker date="1541504947998" expanded="true" signature="223:556" ph="..." />
-                <marker date="1541504947998" expanded="true" signature="588:757" ph="..." />
+                <marker date="1542116861619" expanded="true" signature="140:145" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py">
+        <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/students.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="64" lean-forward="true" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+            <state relative-caret-position="419">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <marker date="1541504845059" expanded="true" signature="37:38" ph="..." />
+                <marker date="1542118992926" expanded="true" signature="23:28" ph="..." />
+                <marker date="1542118992926" expanded="true" signature="749:836" ph="..." />
+                <marker date="1542118992926" expanded="true" signature="847:1014" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Midterm_2/longest_word.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/multiplacation_tablet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <marker date="1542125295786" expanded="true" signature="90:95" ph="..." />
+                <marker date="1542125295786" expanded="true" signature="671:723" ph="..." />
+                <marker date="1542125295786" expanded="true" signature="734:735" ph="..." />
               </folding>
             </state>
           </provider>
@@ -201,6 +236,15 @@
         <option value="$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py" />
         <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py" />
         <option value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/text.txt" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/analyze_list.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/sublists.py" />
+        <option value="$PROJECT_DIR$/ehv/ehv/123.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/sum_of_even.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/students.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/longest_word.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/multiplacation_tablet.py" />
       </list>
     </option>
   </component>
@@ -211,9 +255,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,22 +275,10 @@
               <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="tima_verkefni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="tima_verkefni" type="462c0819:PsiDirectoryNode" />
-              <item name="Assignment_20_Revision" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -256,6 +289,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\prof\Lokaprof\Projects" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\prof\Lokaprof\Midterm_2" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\ehv\ehv" />
     </key>
   </component>
@@ -271,8 +306,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.more_chess_players">
-    <configuration name="bricks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.multiplacation_tablet">
+    <configuration name="longest_word" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,12 +315,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Midterm_2/longest_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,7 +329,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="daematimaverkefni_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="multiplacation_tablet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,12 +337,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ehv/skila_verkefni" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ehv/skila_verkefni/daematimaverkefni_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/multiplacation_tablet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +351,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="riskFactors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,12 +359,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python book/Chapter 9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,7 +373,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="more_chess_players" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="students" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,12 +381,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/students.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,7 +395,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vending_machine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sum_of_even" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,12 +403,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/sum_of_even.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,19 +418,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.daematimaverkefni_7" />
-      <item itemvalue="Python.dictionaries" />
-      <item itemvalue="Python.vending_machine" />
-      <item itemvalue="Python.more_chess_players" />
-      <item itemvalue="Python.bricks" />
+      <item itemvalue="Python.riskFactors" />
+      <item itemvalue="Python.sum_of_even" />
+      <item itemvalue="Python.students" />
+      <item itemvalue="Python.longest_word" />
+      <item itemvalue="Python.multiplacation_tablet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.more_chess_players" />
-        <item itemvalue="Python.bricks" />
-        <item itemvalue="Python.vending_machine" />
-        <item itemvalue="Python.dictionaries" />
-        <item itemvalue="Python.daematimaverkefni_7" />
+        <item itemvalue="Python.multiplacation_tablet" />
+        <item itemvalue="Python.longest_word" />
+        <item itemvalue="Python.students" />
+        <item itemvalue="Python.sum_of_even" />
+        <item itemvalue="Python.riskFactors" />
       </list>
     </recent_temporary>
   </component>
@@ -423,14 +458,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1590604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.16174497" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39885223" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32907802" />
@@ -445,30 +479,30 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Run" order="5" weight="0.39395973" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.40536913" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.4080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.16040269" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39885223" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.5127517" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.39395973" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,13 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python book/Chapter 11/objects_and_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python book/Chapter 11/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -523,14 +550,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prof/Midterm 2/longest_word.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prof/Midterm 2/sublist.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prof/Midterm 2/ANALYZE_LIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_19_Even_more_on_classes/sales.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,12 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1541357207451" expanded="true" signature="21:26" ph="..." />
-            <marker date="1541357207451" expanded="true" signature="181:212" ph="..." />
-            <marker date="1541357207451" expanded="true" signature="339:344" ph="..." />
-            <marker date="1541357207451" expanded="true" signature="579:584" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="84" column="99" lean-forward="true" selection-start-line="84" selection-start-column="90" selection-end-line="84" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python book/Chapter 9/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -642,34 +648,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="88" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="88" />
-          <folding>
-            <marker date="1541500263548" expanded="true" signature="29:34" ph="..." />
-            <marker date="1541500263548" expanded="true" signature="396:623" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/bricks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="64" lean-forward="true" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-          <folding>
-            <marker date="1541504845059" expanded="true" signature="37:38" ph="..." />
-          </folding>
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/more_chess_players.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tima_verkefni/Assignment_20_Revision/vending_machine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Midterm_2/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Midterm 2/ANALYZE_LIST.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Midterm_2/analyze_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Midterm_2/sublists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Midterm 2/sublist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
-            <marker date="1541504947998" expanded="true" signature="223:556" ph="..." />
-            <marker date="1541504947998" expanded="true" signature="588:757" ph="..." />
+            <marker date="1542114701333" expanded="true" signature="32:33" ph="..." />
+            <marker date="1542114701333" expanded="true" signature="562:740" ph="..." />
+            <marker date="1542114701333" expanded="true" signature="753:869" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Projects/riskFactors.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehv/ehv/123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Projects/deck.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/how_many_targets.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/max_min_sum_in_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/size.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/target_in_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/the_average_of_a_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/lists/unique_in_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/kattis/heysata.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/kattis/mork.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/kattis/telja.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/kattis/triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/sum_of_even.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1542116861619" expanded="true" signature="140:145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skilaverkefni/Project 10/vehicles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="118" lean-forward="true" selection-start-line="41" selection-start-column="118" selection-end-line="41" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/students.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1542118992926" expanded="true" signature="23:28" ph="..." />
+            <marker date="1542118992926" expanded="true" signature="749:836" ph="..." />
+            <marker date="1542118992926" expanded="true" signature="847:1014" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Midterm_2/longest_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Midterm 1/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Midterm 1/multiplacation_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2015/multiplacation_tablet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <marker date="1542125295786" expanded="true" signature="90:95" ph="..." />
+            <marker date="1542125295786" expanded="true" signature="671:723" ph="..." />
+            <marker date="1542125295786" expanded="true" signature="734:735" ph="..." />
           </folding>
         </state>
       </provider>
