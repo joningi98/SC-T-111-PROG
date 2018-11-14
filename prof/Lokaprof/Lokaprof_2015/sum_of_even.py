@@ -1,5 +1,5 @@
 def readNumbers():
-    nums = [int(x) for x in input("Enter numbers: ").split()]
+    nums = [int(x) for x in input().split()]
     return nums
 
 

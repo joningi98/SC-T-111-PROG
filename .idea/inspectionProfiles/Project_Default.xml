@@ -23,6 +23,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="str.__or__" />
+          <option value="list.random" />
         </list>
       </option>
     </inspection_tool>
