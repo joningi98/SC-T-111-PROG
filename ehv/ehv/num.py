@@ -1,6 +1,12 @@
-n = int(input("Input an int"))
-i = n
-while i > 0:
-    if n % i == 0:
-        print(i)
-    i -= 1
+a, b = input().split()
+
+a = int(a)
+b = int(b)
+
+num = 0
+for a in range(a):
+    num += a + b
+
+
+print(num-1)
+

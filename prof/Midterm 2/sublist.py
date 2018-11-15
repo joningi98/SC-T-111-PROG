@@ -1,23 +1,18 @@
-def the_list():
-    my_list = [str(x) for x in input("Enter integers separated with commas:").split(',')]
-    return my_list
+def make_sublists(a_list):
+    result = [[]]
+    for i in range(len(a_list)):
+        for j in range(i, len(a_list)):
+            result.append(a_list[i:j+1])
+    return result
 
 
-def make_sublist(the_list):
-    new_list = []
-    for x in range(len(the_list)+1):
-        new_list.append(the_list[:x])
-        if x in range(len(the_list)+1):
-            new_list.append(the_list[x:])
+# Main program starts here
+def main():
+    listi = input("Enter a list separated with commas: ").split(',')
+    sub_lists = make_sublists(listi)
 
-    return print(sorted(new_list))
-
-# Add thing = [] + 1, 2, 3,
-#        if x == len(the_list) - 1:
-#            for y in my_list:
-#                new_list.append(the_list[x:])
-# 1    1 2     123   1234
+    print(sorted(sub_lists))
 
 
-my_list = the_list()
-sublist = make_sublist(my_list)
+# This should be the last statement in your main program/function
+main()

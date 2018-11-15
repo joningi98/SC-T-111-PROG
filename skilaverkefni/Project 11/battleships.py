@@ -22,12 +22,17 @@ class Board(object):
                 print("Please enter a correct input")
 
     def shoot(self):
+        ships_destroyed = 0
+        if ships_destroyed == 4:
+            print("Victory")
+            quit()
         while True:
             a, b = input("Enter the location to shoot: ").split()
             x = int(a)
             y = int(b)
             if self.row[x][y] == 'B':
                 print("Hit!")
+                ships_destroyed += 1
                 self.row[x][y] = 'X'
                 print(self.__str__())
                 break
@@ -50,15 +55,9 @@ class Board(object):
         return s
 
 
-class BattleShips(object):
-    def __init__(self):
-        self.battle_ship = 'B'
-
-
 def main():
     game = True
     p1 = Board(5)
-    p2 = Board(5)
     p1.place_ship()
     while game:
         p1.shoot()
