@@ -1,12 +1,10 @@
-sentence = input().split()
+s = input()
+ans = ""
 
-new_s = []
+ans += s[0]
 
-for x in sentence:
-    for y in x:
-        if y not in new_s:
-            new_s.append(y)
+for i in range(1, len(s)):
+    if s[i] != s[i-1]:
+        ans += s[i]
 
-
-for j in new_s:
-    print(j, end='')
+print(ans)
