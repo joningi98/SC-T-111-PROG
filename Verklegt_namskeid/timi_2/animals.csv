@@ -1,0 +1,4 @@
+type,dangerous,age
+dog,False,20
+cat,True,30
+snake,True,50
