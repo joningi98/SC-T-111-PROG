@@ -1,3 +1,6 @@
+import random
+
+
 class Board(object):
     def __init__(self, size):
         self.board_size = size
@@ -12,27 +15,20 @@ class Board(object):
         while placing_ships:
             try:
                 for a in range(4):
-                    i, j = input("Enter location x, y: ").split()
-                    x = int(i)
-                    y = int(j)
+                    x = random.randint(0, 4)
+                    y = random.randint(0, 4)
                     self.row[x][y] = 'B'
-                    print(self.__str__())
                 placing_ships = False
             except IndexError:
                 print("Please enter a correct input")
 
     def shoot(self):
-        ships_destroyed = 0
-        if ships_destroyed == 4:
-            print("Victory")
-            quit()
         while True:
             a, b = input("Enter the location to shoot: ").split()
             x = int(a)
             y = int(b)
             if self.row[x][y] == 'B':
                 print("Hit!")
-                ships_destroyed += 1
                 self.row[x][y] = 'X'
                 print(self.__str__())
                 break
@@ -42,6 +38,11 @@ class Board(object):
                 print("Miss!")
                 self.row[x][y] = 'O'
                 print(self.__str__())
+
+    def check_victory(self):
+        if 'B' not in self.__str__():
+            print("\nVictory!\n")
+            quit()
 
     def __str__(self):
         s = ''
@@ -59,8 +60,10 @@ def main():
     game = True
     p1 = Board(5)
     p1.place_ship()
+    print(p1)
     while game:
         p1.shoot()
+        p1.check_victory()
 
 
 
