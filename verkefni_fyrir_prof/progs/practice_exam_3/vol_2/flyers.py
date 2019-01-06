@@ -37,4 +37,6 @@ def main():
         for x in country:
             print("\t\t{}".format(x))
     print("\n{} has been to {} countries".format(traveler, trips))
+
+
 main()

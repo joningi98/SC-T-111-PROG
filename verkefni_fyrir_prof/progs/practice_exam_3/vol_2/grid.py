@@ -10,7 +10,7 @@ QUIT = 'q'
 
 
 def get_move():
-    ''' Returns a move corresponding to the user input direction '''
+    """ Returns a move corresponding to the user input direction """
     move = input('Move: ')
 
     if move not in [LEFT, RIGHT, UP, DOWN]:
@@ -20,7 +20,7 @@ def get_move():
 
 
 def initialize_grid():
-    ''' Returns an initialized grid for the given dimension '''
+    """ Returns an initialized grid for the given dimension """
     grid = []
 
     for i in range(DIM):

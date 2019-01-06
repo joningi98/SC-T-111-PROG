@@ -63,9 +63,6 @@ class Team:
                 highest_player = player
         return highest_player
 
-    def get_team(self):
-        return self.__team
-
     def get_name(self):
         return self.__name
 
@@ -83,9 +80,9 @@ class Team:
 
 
 class FootballPlayer:
-    def __init__(self, number=0):
+    def __init__(self, number=0, points=0):
         self.__number = number
-        self.points = 0
+        self.points = points
 
     def shoot_ball(self):
         goal = random.randint(1, 50)
@@ -96,16 +93,10 @@ class FootballPlayer:
             return 0
 
     def __gt__(self, other):
-        if self.points > other.points:
-            return True
-        if self.points < other.points:
-            return False
+        return self.points > other.points
 
     def __str__(self):
-        return str(self.__number)
-
-    def get_number(self):
-        return self.__number
+        return "Number: {} Points: {}\n".format(self.__number, self.points)
 
 
 def print_winner(team_a, team_b):
@@ -128,45 +119,18 @@ def print_scores(team_a, team_b):
         the scoring of each player in each team
         the highest scoring player in each team
     """
+    for x in [team_a, team_b]:
+        print("{} scored {} points!".format(x.get_name(), x.get_points()))
 
-    print("{} scored {} points!".format(team_a.get_name(), team_a.get_points()))
-    print("{} scored {} points!\n".format(team_b.get_name(), team_b.get_points()))
+    print()
 
-    team_scoring(team_a, team_b)
-    highest_scoring_player(team_a, team_b)
+    for x in [team_a, team_b]:
+        print("{} scoring:".format(x.get_name()))
+        print(x)
 
-
-def team_scoring(team_a, team_b):
-    team_a_strikers = []
-    for player in team_a.get_team():
-        if player.points != 0:
-            team_a_strikers.append(player)
-
-    print("{} scoring:".format(team_a.get_name()))
-    for man in team_a_strikers:
-        print("Number: {} Points: {}".format(man.get_number(), man.points))
-
-    team_a_strikers = []
-    for player in team_b.get_team():
-        if player.points != 0:
-            team_a_strikers.append(player)
-
-    print("{} scoring:".format(team_b.get_name()))
-    for man in team_a_strikers:
-        print("Number: {} Points: {}".format(man.get_number(), man.points))
-
-
-def highest_scoring_player(team_a, team_b):
-    print("\n{} highest scoring player:".format(team_a.get_name()))
-    if team_a.get_points() == 0:
-        print("None")
-    else:
-        print("Number: {} points: {}".format(team_a.get_player_with_highest_score(), team_a.get_player_with_highest_score().points))
-    print("{} highest scoring player:".format(team_b.get_name()))
-    if team_b.get_points() == 0:
-        print("None")
-    else:
-        print("Number: {} points: {}".format(team_b.get_player_with_highest_score(), team_b.get_player_with_highest_score().points))
+    for x in [team_a, team_b]:
+        print("{} highest scoring player".format(x.get_name()))
+        print("{}".format(x.get_player_with_highest_score()))
 
 
 def play(team_a, team_b):
