@@ -1,15 +1,12 @@
-
-
 import math
 
 
-class Vector(object):
-    def __int__(self, my_list=list):
-        self.list = my_list
+class Vector(list):
 
     def length(self):
         try:
-            num = math.sqrt(sum(self))
+            my_sums = sum([x**2 for x in self])
+            num = math.sqrt(my_sums)
             return num
         except ValueError:
             return 0
@@ -23,7 +20,8 @@ class Vector(object):
         for x in self:
             total_value.append(x * num)
         self.clear()
-        self.append(total_value)
+        for y in total_value:
+            self.append(y)
 
 
 class VectorTest:

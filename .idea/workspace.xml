@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120e843-18b5-4c7e-b60e-056d57b5ffc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/doc1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/doc2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/query.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/stringset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/file_owners.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/lol_intlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/yatzy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/Rock-Paper-Scissors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/stockprices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/table.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/vector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ehv/ehv/bin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ehv/ehv/bin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/flyers.py" beforeDir="false" afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/flyers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/football.py" beforeDir="false" afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/football.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/grid.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +63,8 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$fizzbuzz.coverage" NAME="fizzbuzz Coverage Results" MODIFIED="1542302026535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verkefni_fyrir_prof/kattis" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$analyze_list.coverage" NAME="analyze_list Coverage Results" MODIFIED="1542059378868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Midterm_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$dubble_list.coverage" NAME="dubble_list Coverage Results" MODIFIED="1542233859456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2017" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$vector.coverage" NAME="vector Coverage Results" MODIFIED="1546859545509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$stockprices.coverage" NAME="stockprices Coverage Results" MODIFIED="1546859934630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$rectangle__1_.coverage" NAME="rectangle (1) Coverage Results" MODIFIED="1542136216590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_18_More_on_classes" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1542320129895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python book/Chapter 9" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$matrix_m.coverage" NAME="matrix_m Coverage Results" MODIFIED="1546702149263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verkefni_fyrir_prof/verkefni" />
@@ -92,6 +86,7 @@
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$44.coverage" NAME="44 Coverage Results" MODIFIED="1540889040072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/tima_verkefni" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$sales_2.coverage" NAME="sales_2 Coverage Results" MODIFIED="1546535466921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/vol_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$rectangle.coverage" NAME="rectangle Coverage Results" MODIFIED="1542136902861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2016" />
+    <SUITE FILE_PATH="coverage/SC_T_111_PROG$Rock_Paper_Scissors.coverage" NAME="Rock-Paper-Scissors Coverage Results" MODIFIED="1546977764400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$lowest_value.coverage" NAME="lowest_value Coverage Results" MODIFIED="1542216768175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2017" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$predator_prey.coverage" NAME="predator_prey Coverage Results" MODIFIED="1542229980825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tima_verkefni/Assignment_20_predator_prey" />
     <SUITE FILE_PATH="coverage/SC_T_111_PROG$daematimaverkefni_7.coverage" NAME="daematimaverkefni_7 Coverage Results" MODIFIED="1541357207562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ehv/skila_verkefni" />
@@ -150,9 +145,9 @@
     <session id="1768651762">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="40" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -161,8 +156,8 @@
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -172,39 +167,39 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="6" />
-          <entry key="py" value="242" />
+          <entry key="csv" value="7" />
+          <entry key="py" value="254" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="5" />
+          <entry key="CSV" value="6" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="242" />
+          <entry key="Python" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="44" />
-          <entry key="csv" value="154" />
+          <entry key="csv" value="189" />
           <entry key="dummy" value="16" />
-          <entry key="py" value="61556" />
+          <entry key="py" value="64148" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="154" />
+          <entry key="CSV" value="189" />
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="61600" />
+          <entry key="Python" value="64192" />
         </counts>
       </usages-collector>
     </session>
@@ -213,26 +208,7 @@
     <favorites_list name="SC-T-111-PROG" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/lol_intlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -252,10 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/basketball.py" />
-        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/flyers.py" />
-        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/classes/basketball.py" />
-        <option value="$PROJECT_DIR$/Verklegt_namskeid/video.py" />
         <option value="$PROJECT_DIR$/Verklegt_namskeid/salesmanUI.py" />
         <option value="$PROJECT_DIR$/Verklegt_namskeid/video_rent/services/VideoService.py" />
         <option value="$PROJECT_DIR$/Verklegt_namskeid/video_rent/repositories/VideoRepository.py" />
@@ -296,13 +268,17 @@
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/query.txt" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/stringset.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/yatzy.py" />
-        <option value="$PROJECT_DIR$/ehv/ehv/bin.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/intlist.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/football.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/flyers.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/file_owners.py" />
         <option value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/lol_intlist.py" />
+        <option value="$PROJECT_DIR$/ehv/ehv/bin.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/table.csv" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/stockprices.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/Rock-Paper-Scissors.py" />
+        <option value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/vector.py" />
       </list>
     </option>
   </component>
@@ -313,10 +289,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -337,20 +312,13 @@
             <path>
               <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="verkefni_fyrir_prof" type="462c0819:PsiDirectoryNode" />
+              <item name="ehv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="verkefni_fyrir_prof" type="462c0819:PsiDirectoryNode" />
-              <item name="progs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-111-PROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-111-PROG" type="462c0819:PsiDirectoryNode" />
-              <item name="verkefni_fyrir_prof" type="462c0819:PsiDirectoryNode" />
-              <item name="progs" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_exam 2" type="462c0819:PsiDirectoryNode" />
+              <item name="ehv" type="462c0819:PsiDirectoryNode" />
+              <item name="tima_verkefni" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,15 +333,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\verkefni_fyrir_prof\progs\practice_exam\vol_2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\Verklegt_namskeid\video_rent\models" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\Verklegt_namskeid\video_rent\ui" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\prof\Lokaprof\Lokaprof_2018\classes" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\prof\Lokaprof\Lokaprof_2018" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\prof\Lokaprof\Lokaprof_2015" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-111-PROG\verkefni_fyrir_prof\progs\practice_exam\vol_2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,8 +356,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sliding_puzzle">
-    <configuration name="file_owners" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Rock-Paper-Scissors">
+    <configuration name="Rock-Paper-Scissors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,34 +365,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/file_owners.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="football" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-111-PROG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/vol_2/football.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/Rock-Paper-Scissors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -455,28 +401,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plaindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-111-PROG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sliding_puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-111-PROG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -499,20 +423,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stockprices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-111-PROG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/stockprices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-111-PROG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/vector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.football" />
-      <item itemvalue="Python.plaindrome" />
-      <item itemvalue="Python.file_owners" />
       <item itemvalue="Python.lol_intlist" />
       <item itemvalue="Python.sliding_puzzle" />
+      <item itemvalue="Python.stockprices" />
+      <item itemvalue="Python.Rock-Paper-Scissors" />
+      <item itemvalue="Python.vector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Rock-Paper-Scissors" />
+        <item itemvalue="Python.stockprices" />
+        <item itemvalue="Python.vector" />
         <item itemvalue="Python.sliding_puzzle" />
         <item itemvalue="Python.lol_intlist" />
-        <item itemvalue="Python.file_owners" />
-        <item itemvalue="Python.plaindrome" />
-        <item itemvalue="Python.football" />
       </list>
     </recent_temporary>
   </component>
@@ -539,10 +507,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.17583893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1785235" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -562,7 +529,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Run" order="5" weight="0.37919462" />
+      <window_info anchor="right" id="Run" order="5" weight="0.40469798" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.21073826" />
@@ -606,55 +573,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/student_grades.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/prectice_exem_2.1/sliding_puzzle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/doc2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/doc1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/stringset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/grid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/flyers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam_3/flights.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -683,9 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/vol_2/doc1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/vol_2/doc1.txt" />
     <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/vol_2/sales.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,9 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#28#283#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,20 +730,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ehv/ehv/safe_input.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/intlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ehv/ehv/bin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ehv/ehv/timi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -898,20 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/sliding_puzzle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/file_owners.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -921,10 +806,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/lol_intlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="289">
           <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/verkefni/plaindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam/intlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verkefni_fyrir_prof/progs/practice_exam 2/sliding_puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehv/ehv_skoladaemi/rock_paper_scisors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1542">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehv/ehv/bin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/table.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/Rock-Paper-Scissors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/stockprices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prof/Lokaprof/Lokaprof_2018/vol_2/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehv/tima_verkefni/tileTraveler.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
